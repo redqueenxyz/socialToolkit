@@ -84,9 +84,9 @@ range = seq(as.Date(floor), as.Date(roof), by="days")
 # token generated here: https://developers.facebook.com/tools/explorer 
 # Lasts two hours, and must be changed depending on page and permissions
 
-ftokens <- c("CAACEdEose0cBAK0jKigHA42rV6J6emsdTLd8G8B8gdsuWrIiM1dQQFKZBSHgypbA0qNIGCZB5PB1MsjaPX5sK0bDgWIZBcrFECEpCLn0TsgzC6b3K4guYvsZCjZBM7OFyg5Dpj0D9oBQgvNrkkr43wFBM1SPChz0u5rSwhleZCdgkoZBlCg8tlFP7GOhvwou3MZD", #Sledgehammer Wine 
-             "CAACEdEose0cBAJezx1kOjdBHp7DhQZB9clByZAQFWwUuQFoWAXzmrzZCyMwJBwzkB79MpxroWsIRs5XGuYpoI8ZCawgB9J5QqoZA3rZBCvjr8DZBiz4qQ2ZAalEI25qnTZCokiBaYEqhHgYz1MTKKty4jc5wIRZC6ixp4Rh1dZCJ1TA3ijgLauZB5VZAvKWZBALAeA9aYZD", #Chateau Saint Jean
-             "CAACEdEose0cBABI39Oaf21VuhKTTIqeQTqxZBWc4A9eqqWteEfkahclg2cVXM0ZA7OTsh5qGkEKsE5pZBf6FFqprZCZCT192SeTyTTsOf85GLyGZBZC7S1ZBPYoOFkgujZBOVnaBmMHwgZA0eGXqIm0hkhhIXij4AyHSzFNmOToRGuzTWZADcthZAusMxOFxGgEpPgoZD" #19 Crimes
+ftokens <- c("", #Sledgehammer Wine 
+             "", #Chateau Saint Jean
+             "" #19 Crimes
              )
 
 for (token in 1:length(ftokens)) {
