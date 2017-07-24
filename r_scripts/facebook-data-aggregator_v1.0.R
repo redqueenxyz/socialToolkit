@@ -31,7 +31,7 @@ me <- getUsers("me", token=fb_oauth)
 me$username
 
 # Use token from Facebook Graph API 
-token <- "CAACEdEose0cBAIJVgn9iGH21Q69dsxKNZCr6Mrx57CKJWc3BclFrbhO2j7M6PbJMv0M3g5WVU1yhwtP0rhyVpq9kvR3br2RwcRg0DHCL8ZANCnbiaXVKy9iixWjHU68UZA14zHZAZBrqJtuLKEP4ZBJGNYReQsT94Cn9xyeD0qnyF3EuEBQ6Rrc6SyZAO26d9kZD"
+token <- ""
 users <- getUsers("me", token=token)
 
 # Initial -----------------------------------------------------------------

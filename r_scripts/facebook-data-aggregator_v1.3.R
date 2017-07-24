@@ -124,7 +124,7 @@ for (token in 1:length(ftokens)) {
   
 }
 
-ftoken <- "CAACEdEose0cBAINFYXbTpZBRUqMOonGr9htmd1jPVzIn8jCgXFpaXK4octjnKCDHsDi5ZBqRfES3n2CA3SuVqkPdS525rAk5bx1Aa9D6vn5QIpANz19lva7wDO4cmjBIjAxDZAd6vet1HY8MjlhvNRM1fgVh8qNThUIbT87ZCHqEx8d5iUwJ4fuoqokUjeFGZC0xPJzRYeQZDZD"
+ftoken <- ""
 
 
 

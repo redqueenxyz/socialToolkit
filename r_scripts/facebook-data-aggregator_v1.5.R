@@ -76,7 +76,7 @@ gcd <- function(x,y) {
 # Define data range for data (2012 is out of bounds for some metrics)
 
 # http://thinktostart.com/analyzing-facebook-with-r/
-fb_oauth <- fbOAuth(app_id="955460364539237", app_secret="0a3e6943c90510dc158fc7683e560f7d",extended_permissions = FALSE)
+fb_oauth <- fbOAuth(app_id="", app_secret="",extended_permissions = FALSE)
 
 posts <- 2000
 roof = "2017-01-01" #Sys.Date() #"2015-12-31"
@@ -92,21 +92,21 @@ range = seq(as.Date(floor), as.Date(roof), by="days")
 
 ftokens <- c(
   #Sledgehammer Wine
-  #"CAACEdEose0cBAAaqv8JuC9FYYF2JZBzCDyJSrZB5aXhCMHeZAYjdcRkoOyZBHAqNdsSAVnmf63EyT3ZB6pcBZAIcPxcDCQCAXFE1ER62zJDC9tMF6AC5IvTXczksCjh9HocfSBYA1qjER8wsoFvPUF1B9f4mMhNrnAPWRZADbliPBRDTh0D2qF72LAPwZCsfw3UZD"
+  #""
   #Chateau Saint Jean
-  #"EAACEdEose0cBAOwwfrVCmYxjRlHVlMDJAjtEJkfMZBkWVsQbDGv0eXi50MZCc4F2i33vbhmJ6823oIzAbhezsZAkqchpPpYaiB8XzcfZBKS2jSXE22EY1e855OvkfgFyjKPiOPOjOZAQIbDiJg1tHCMMLVjUlwPcoKGBEexWbGQZDZD"
+  #""
   #19 Crimes
-  #,"EAACEdEose0cBANCXTZAFtviL9VEUq4DhkEwMyzqdmWgZBh68EReZAIEOVBYlTSiS52swRACvjhybfPQGFqEOmJp0OjTSPQ9ZC01R6nxViJ5xDHXPlDCwnnXOBObHYwZAXhQzy52kL3FZA3WcHNrGNIqfJZC9MZCJPkkfXHpVsx3PHQZDZD"
+  #,""
   #Beringer Vneyards
-  #,"EAACEdEose0cBAAfj1KkrLbPzVw0v5gul87LeUeoXUHnN6rlxrVRklAgg214vFGLkQTKeLHEUWDGg9ZBVeTDRQdOietA25FLcAaQCGiKvmLFv3ZAYnMpLg9YKnpNpazKjXKwWpkXZBdjuKB7Ql6JKu4Q8pNOZCk97LWSwW4U8vgZDZD"
+  #,""
   #100% Canadian Milk
-  #"EAANkZCHOgFWUBAJZCvRlC7OapZBTJNXWibKAXkVi09U4IgYweulZANtxZB3GTuNBOC7HKkXCu2nKSJwyAJVimuk4VdHWUyVQtufu8io4uNJILPctxkOs51myVMErxwdXe6yFHWrzABRadSI9QpNGmvWkxpO8fjrdmVpqe3XgOUQZDZD"
+  #""
   #Lait 100% Canadien
-  #,"EAANkZCHOgFWUBAOfjVgEIn6mY1OHt6ZCwaZA8RGhMlDX9l2UUZCAOLylBVZBWpaXyFyyjRqo5eYnZBTYTgrRbIkZA95ZAiuJZBZBwqtjs60zNMNpj7Dn9rqnR4BI2czMR7lB84wIw0ikJSwXxZAcBpFBG0NFUP8q2spL7ZBitHw7Q9EY8QZDZD"
+  #,""
   #Recharge with Milk
-  #,"CAACEdEose0cBAJ9NPmffbszUQ1HYObOGqdht5XWBoU7zABLhgZB6L53eyqVrt0CPxkZAXQpI0fGW7FHucQ0LgGtmRRlWP6eAQgZBSa6oaRibk9qZAp0xVGZCr4B6AdysmfVlbZCFjoZBYZCJ3sxN1yMdL5jz6yCWOZAAbAv00nXq5wURrgCUe3dXZAZBF2COnBm9YxXk5vFoWWJkQZDZD"
+  #,""
   #BaronSamedi
-  #"EAANkZCHOgFWUBAF2DJvKfMZAJCJICo0Xd3bT8GJP7zhUHuTUmnDdM1qOH8EUl8qUMj8CyzwSuDFRmKucSCRckOHrROq3wZA6EeQ8xB9NWIESniqvJ5dP9H9rHkEg4nZCFdpjeZCqZCk0jzCl6bXTTZBWxpuilujWsL6Ade6LvjJYAZDZD"
+  #""
   )
 
 totalpagedata <- data.frame()

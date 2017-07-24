@@ -48,7 +48,7 @@ getwd()
 # token generated here: https://developers.facebook.com/tools/explorer 
 # Lasts two hours, and must be changed depending on page and permissions
 
-ftoken <- "CAACEdEose0cBABXXTGdaqZCMaZAZChBMN1n5ZBeTUTwLET1X4tHQqddmYM0AZCs8gq5SqhzZBVFTA1H9fbQk7s8n5A5VuZB7s4rgwQwj8UkTGPq7UIUhDd7ZBBg8CSTrLYCwensylY3AP7ZBr422xiflf3LZC1pjrAbysGcYZBEZA8jeE4WIbPHkviJeFTJKaWfVcI8ZD"
+ftoken <- ""
 
 ## User Id 
 # Set up the user profile that will be accessing the data (must have all appropriate permissions/be Page Admin)

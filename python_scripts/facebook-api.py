@@ -5,7 +5,7 @@ import datetime
 import json
 import facebookinsights
 
-FACEBOOK_PAGE_TOKEN = 'CAACEdEose0cBAFu5pHimLLf94LqdmiK4CbplEpmZBBb4mg7ywrUzPsM67TSfZC0IBc8FyvO51o445qZBqZBVUGvkefKH44EzYWNVNlg2EOqveZBHZBZBCBvjIZCkyOTxmu9EZA5dEQX9ovSWYwH3bpCQRfsGMwWqiO6aot0Sk5toG9gat8vdbghiR1glOSJAACiQZD'
+FACEBOOK_PAGE_TOKEN = ''
 
 page = facebookinsights.authenticate(token=FACEBOOK_PAGE_TOKEN)
 
